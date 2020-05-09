@@ -1,0 +1,545 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    background-color: black;
+    height: 110px;
+    bottom: 0%;
+}
+
+.logo {
+    background-image: url(../images/ic.jpeg);
+    background-size: 50%;
+    height: 100%;
+    width: 10%;
+    margin-left: 30px;
+    background-repeat: no-repeat;
+}
+
+.content {
+    background-image: url(../images/img-bg.jpg);
+    background-size: cover;
+    height: 585px;
+    background-repeat: no-repeat;
+}
+
+.header-text {
+    color: white;
+    position: absolute;
+    top: 3%;
+    left: 35%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container {
+    position: relative;
+    top: 20%;
+    left: 30%;
+    height: 60%;
+    width: 40%;
+    background-color: white;
+}
+
+.container-header {
+    height: 100px;
+    background-color: darkturquoise;
+}
+
+.title {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 40px;
+}
+
+.input-form {
+    height: 60px;
+    margin: 10px 35px;
+}
+
+.form-control {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    font-size: 12px;
+    font-weight: bold;
+    color: silver;
+}
+
+.error-form {
+    color: red;
+    width: 100%;
+    font-weight: bold;
+}
+
+.icon-form {
+    width: 20px;
+    height: 35px;
+    position: relative;
+    left: 95%;
+    top: 42px;
+}
+
+.icon-form-login {
+    background-image: url(../images/ic-login.png);
+    background-repeat: no-repeat;
+}
+
+.icon-form-password {
+    background-image: url(../images/icone-password.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.btn-form {
+    margin-top: 30px;
+    padding: 10px;
+    color: white;
+    background-color: darkturquoise;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid darkturquoise;
+}
+
+.link-form {
+    margin-left: 25px;
+    font-size: 20px;
+    top: 0%;
+    font-weight: bold;
+    color: silver;
+    text-decoration: none;
+    background-color: white;
+    position: relative;
+}
+
+.erreur {float: left; left: 0%;  bottom: 10%; color: red; position: absolute;}
+
+.erreur2_dans_foncions {margin-bottom: 0px; left: 0%; font-size: 20px;  position: relative; color: red;}
+
+/* Acceuil*/ /* Acceuil*/ /* Acceuil*/ /* Acceuil*/ /* Acceuil*/ /* Acceuil*/ /* Acceuil*/ /* Acceuil*/ /* Acceuil*/ /* Acceuil*/
+
+.container_acceuil {
+    position: relative;
+    top: 2%;
+    left: 3%;
+    height: 96%;
+    width: 94%;
+    background-color: rgb(231, 223, 223);
+}
+
+.container-header_acceuil {
+    height: 100px;
+    background-color: #51bfd0;
+}
+
+.title_acceuil {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 35px;
+    text-align: center;
+}
+
+.btn-form-acceuil {
+    float: right;
+    position: relative;
+    margin-top: -7%;
+    padding: 10px;
+    color: white;
+    background-color: #3addd6;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid darkturquoise;
+    
+}
+
+.btn-form-acceuil a {
+    text-decoration: none;
+    color: white;
+}
+
+.input-form_acceuil {
+    height: 60px;
+    margin: 10px 35px;
+}
+
+.form-control_acceuil {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    font-size: 12px;
+    font-weight: bold;
+    color: silver;
+}
+
+/*STYLE DU MENU */ /*STYLE DU MENU */ /*STYLE DU MENU */ /*STYLE DU MENU */ /*STYLE DU MENU */ /*STYLE DU MENU */ /*STYLE DU MENU */
+
+.container_menu {
+    position: relative;
+    top: 10%;
+    left: 3%;
+    height: 60%;
+    width: 40%;
+    background-color: white;
+}
+
+.container-header_menu {
+    height: 100px;
+    background-color: #51bfd0;
+}
+
+.image-ronde {
+    float: left; 
+    width : 65px; 
+    height : 65px; 
+    margin-left: 2%; 
+    margin-top: 0.5%; 
+    border: none; 
+    -moz-border-radius : 75px; 
+    -webkit-border-radius : 75px; 
+    border-radius : 75px;
+}
+
+
+
+.nom_prenom p{
+    float: left; 
+    margin-top: 2%; 
+    margin-left: 3%; 
+    position: relative;
+    color: white;
+}
+
+.title_acceuil_menu {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 35px;
+    text-align: center;
+}
+
+.btn-form_menu {
+    float: right;
+    position: relative;
+    margin-top: -7%;
+    padding: 10px;
+    color: white;
+    background-color: #3addd6;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid darkturquoise;
+    
+}
+
+.input-form_menu {
+    height: 60px;
+    margin: 10px 35px;
+}
+
+.form-control_menu {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    font-size: 12px;
+    font-weight: bold;
+    color: silver;
+}
+
+/* HOVER */ /* HOVER */ /* HOVER */ /* HOVER */ /* HOVER */ /* HOVER */ /* HOVER */ /* HOVER */ /* HOVER */
+
+.option {
+    float: left;
+    width: 100%;
+    height: 70%;
+    background-color: white;
+}
+
+.liste-questions {
+    float: left;
+    width: 100%;
+    height: 60px;
+    position:relative;
+    background-color: white;
+}
+
+.créer-admin {
+    float: left;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+
+.liste-joueur {
+    float: left;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+
+.créer-questions {
+    float: left;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+
+div > ul{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+div > ul:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+div > ul > li{
+    float: left;
+    position: relative;
+    text-decoration: none;
+}
+
+div > ul > li > a{
+    border: none;
+    position: relative;
+    float: left;
+    padding: 15px 30px;
+    color: #818181;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+div > ul > li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+
+.icone-1 {
+    float: right;
+    position: fixed;
+    padding: 15px 0px 20px 0px;
+    margin-left: 19.5%;
+}
+
+.icone-2 {
+    float: right;
+    position: fixed;
+    padding: 15px 0px 20px 0px;
+    margin-left: 21.2%;
+}
+
+.icone-3 {
+    float: right;
+    position: fixed;
+    padding: 15px 0px 20px 0px;
+    margin-left: 21.5%;
+}
+
+.icone-4 {
+    float: right;
+    position: fixed;
+    padding: 15px 0px 20px 0px;
+    margin-left: 19.5%;
+}
+
+div > ul > li:hover img{
+    padding: 15px 0px 20px 0px;
+}
+
+div li{
+    float: left;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+div a{
+    text-decoration: none;
+}
+
+.menu-liste-questions:hover {
+    border-left: 7px solid #e44d26;
+    background-color:  rgba(194, 189, 189, 0.5);
+    position: absolute;
+    width: 98.6%;
+    height: 60px;
+    text-decoration: none;
+}
+
+.menu-créer-admin:hover {
+    border-left: 7px solid #045c1e;
+    background-color: rgba(194, 189, 189, 0.5);
+    position: absolute;
+    width: 98.6%;
+    height: 60px;
+
+}
+
+.menu-liste-joueur:hover {
+    border-left: 7px solid #0070bb;
+    background-color: rgba(194, 189, 189, 0.5);
+    position: absolute;
+    width: 98.6%;
+    height: 60px;
+
+}
+
+.menu-créer-questions:hover {
+    border-left: 7px solid #e9d51e;
+    background-color: rgba(194, 189, 189, 0.5);
+    position: absolute;
+    width: 98.6%;
+    left: 0%;
+    height: 60px;
+
+}
+
+/* STYLE ZONE D'AFFICHAGE */ /* STYLE ZONE D'AFFICHAGE */ /* STYLE ZONE D'AFFICHAGE */ /* STYLE ZONE D'AFFICHAGE */
+
+.zone-affichage{
+    float: right;
+    width: 50%;
+    height: 75%;
+    top: 20%;
+    right: 2%;
+    border-radius: 5px 5px 5px 5px;
+    background-color: white;
+    position: absolute;
+}
+
+/* Page Question */ /* Page Question */ /* Page Question */ /* Page Question */ /* Page Question */ /* Page Question */
+
+.form-header-zone-liste-questions {
+    float: right;
+    width: 55%;
+    height: 70%;
+    top: 15%;
+    right: 5%;
+    position: relative;
+}
+
+.form-header-zone-liste-questions p {
+    display: inline;
+    font-size: 25px;
+    color: gray;
+}
+
+.form-input-header-zone-liste-questions {
+    width: 10%;
+    float: right;
+    top: 20%;
+    right: 25%;
+    position: absolute;
+}
+
+.form-submit-header-zone-liste-questions {
+    width: 10%;
+    float: right;
+    top: 20%;
+    right: 10%;
+    position: absolute;
+    background-color: #5e90af;
+}
+
+
+
+.cadre-zone-liste-questions {
+    width: 94%;
+    height: 100%;
+    top: 1%;
+    left: 2.5%;
+    border: 1px solid silver;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+}
+
+
+
+.button-suivant-liste-question {
+    float: right;
+    width: 20%;
+    height: 60%;
+    top: 20%;
+    right: 5%;
+    background-color: darkturquoise;
+    color: white;
+    border-radius: 5px 5px;
+    position: relative;
+}
+
+
+
+/* JOUEUR*/ /* JOUEUR*/ /* JOUEUR*/ /* JOUEUR*/ /* JOUEUR*/ /* JOUEUR*/ /* JOUEUR*/ /* JOUEUR*/ /* JOUEUR*/ /* JOUEUR*/
+
+.header-zone-liste-joueurs {
+    width: 100%;
+    height: 12%;
+    border-radius: 5px 5px;
+    background-color: white;
+}
+
+.title-header-zone-liste-joueurs {
+    width: 62%;
+    height: 70%;
+    top: 30%;
+    left: 22%;
+    position: relative;
+}
+
+.title-header-zone-liste-joueurs p {
+    display: inline;
+    font-size: 25px;
+    color: gray;
+}
+
+.body-zone-liste-joueurs {
+    width: 100%;
+    height: 76%;
+    background-color: white;
+}
+
+.cadre-zone-liste-joueurs {
+    width: 94%;
+    height: 95%;
+    top: 2%;
+    left: 2.5%;
+    border: 1px solid darkturquoise;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+}
+
+.footer-zone-liste-joueurs {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 7%;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.button-suivant-liste-question {
+    float: right;
+    width: 20%;
+    height: 60%;
+    right: 5%;
+    background-color: darkturquoise;
+    color: white;
+    border-radius: 5px 5px;
+    position: relative;
+}
+
+/*PAGE INSCRIPTION*/ /*PAGE INSCRIPTION*/ /*PAGE INSCRIPTION*/ /*PAGE INSCRIPTION*/ /*PAGE INSCRIPTION*/ /*PAGE INSCRIPTION*/
+
+
+/* PAGE DE JEU */ /* PAGE DE JEU */ /* PAGE DE JEU */ /* PAGE DE JEU */ /* PAGE DE JEU */ /* PAGE DE JEU */ /* PAGE DE JEU */ /* PAGE DE JEU */
+
